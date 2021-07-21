@@ -95,11 +95,24 @@ body {
   letter-spacing: 1.86px;
 }
 
-.box-right {
+.box-right { 
   background-color: #54499E;
   width: 605px;
   height: 1080px;
+  position: relative;
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
   display: inline-block;
+}
+
+.box-right > button {
+  position:absolute;
+  right: 48px;
+  top: 49px;
+  background-color: #7364D9;
+  font-size: 22px;
+  line-height: 25.78px;
+  padding: 18px 54px 18px 55px;
+  border: 0px;
+  border-radius: 36px;
 }
