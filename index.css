@@ -173,8 +173,8 @@ body {
   background-image: url(./images/designer4.png);
   height: 75.68px;
   width: 75.68px;
-  position: relative;
-  left: 1806px;
+  position: absolute;
+  right: 38.38px;
   bottom: 298.28px;
 }
 
@@ -182,26 +182,25 @@ body {
   background-image: url(./images/designer3.png);
   height: 96px;
   width: 82.4px;
-  position: relative;
+  position: absolute;
   left: 725px;
-  bottom: 560px;
+  bottom: 445px;
 }
 
 .designer-2 {
   background-image: url(./images/designer2.png);
   height: 60px;
   width: 60px;
-  position: relative;
+  position: absolute;
   left: 1164px;
-  bottom: 250px;
+  bottom: 68px;
 }
 
 .designer-1 {
   background-image: url(./images/designer1.png);
-  height: 112px;
-  width: 112px;
-  position: relative;
+  height: 80px;
+  width: 80px;
+  position: absolute;
   left: 1226px;
-  bottom: 940px;
-  
+  top: 305px;
 }
