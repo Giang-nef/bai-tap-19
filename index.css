@@ -1,118 +1,207 @@
 body {
-  background-color: #F2F2F2;
+  background-color:black;
 }
 
 .sum {
-  background-color: #FFFFFF;
+  position: relative;
+  background-color: #fffffffa;
   color: #1D2433;
   width: 1920px;
   height: 1080px;
   margin: auto;
 }
 
-.box-left {
-  width: 1310px;
-  height: 1080px;
-  display: inline-block;
-}
-
-.box-left > img {
-  display: inline-block;
-  padding: 49px 0px 0px 49px;
-}
-
-.header-left {
-  display: inline-block;
+,header {
   position: relative;
-  bottom: 25px;
-  left: 110px;
+  color: #F2F2F2;
 }
 
-.header-left > nav > ul {
+.header > img {
+  display: inline-block;
+  margin: 49px 0px 0px 49px;
+}
+
+.header > nav {
+  position: absolute;
+  top: 55px;
+  display: inline-block;
+  margin-left: 170px;
+}
+
+.header > nav > ul {
   list-style-type: none;
 }
 
-.header-left > nav > ul > li {
-  font-size: 13px;
-  line-height: 15.23px;
-  letter-spacing: 1.86px;
-  padding-left: 74px;
+.header > nav > ul > li {
+  opacity: 60%;
   display: inline;
+  font-size: 13px;
+  line height: 15.23px;
+  letter-spacing: 1.86px;
+  padding-right: 74px;
 }
 
-.main-left {
-  margin: 150px 0px 0px 149px;  
+.header > nav > ul > li:hover{
+  opacity: 100%;
 }
 
-.main-left > h1 {
+.box-left {
+  display: inline-block;
+  margin: 80px 0px 0px 150px;
+}
+
+.left-top > h1 {
   font-size: 107px;
   line-height: 122px;
   letter-spacing: -3.5px;
+  margin-bottom: 30px;
 }
 
-.main-left > p {
+.left-top > p {
+  opacity: 50%;
   font-size: 18px;
   line-height: 32px;
 }
 
-.main-left > img {
-  padding-left: 150px;
-}
-
-.main-left > button {
+.left-top > button {
   background-color: #1574F6;
   color: #FFFFFF;
   font-size: 22px;
   line-height: 25.78px;
   padding: 22px 82px 22px 83px;
-  margin-top: 40px;
+  margin-top: 48px;
   border-radius: 36px;
   border: 0px;
 }
 
-.footer-left {
-  margin: 125px 0px 0px 150px;
+.left-bottom {
+  margin: 150px 0px 0px 0px;
 }
 
-.footer-left > img {
+.left-bottom > img {
   display: inline-block;
 }
 
-.footer-left > div {
+.left-bottom > div {
   display: inline-block;
-  padding-left: 24px;
+  margin-left: 24px;
 }
 
-.footer-left > div > p:first-child {
+.left-bottom > div > p {
+  opacity: 50%;
   font-size: 19px;
   line-height: 32px;
   letter-spacing: -0.4px;
 }
 
-.footer-left > div > p:last-child {
+.left-bottom > div > h3 {
   font-size: 13px;
-  line height: 15.23px;
+  line-height: 15.23px;
   letter-spacing: 1.86px;
 }
 
-.box-right { 
+.box-right {
+  display: inline-block;
   background-color: #54499E;
-  width: 605px;
-  height: 1080px;
-  position: relative;
+  width: 607px;
+  height: 100%;
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
-  display: inline-block;
+  position:absolute;
+  right: 0px;
+  top: 0px;
 }
 
 .box-right > button {
-  position:absolute;
-  right: 48px;
-  top: 49px;
   background-color: #7364D9;
+  color: #FFFFFF;
   font-size: 22px;
   line-height: 25.78px;
+  position: absolute;
+  right: 48px;
+  top: 55px;
   padding: 18px 54px 18px 55px;
-  border: 0px;
   border-radius: 36px;
+  border: 0px;
+}
+
+.box-between {
+  background-color: #FFFFFF;
+  width: 890px;
+  height: 684px;
+  border-radius: 8px;
+  position: absolute;
+  top: 215px;
+  left: 885px;
+}
+
+.line {
+  opacity: 16.89%;
+  background-color: #8F8F92;
+  width: 892px;
+  height: 1px;
+}
+
+.between-top > p {
+  opacity: 40%;
+  display: inline-block;
+  margin: 24px 700px 23px 43px;
+}
+
+.between-top > img {
+  display: inline-block;
+}
+
+.between-bottom > ul {
+  list-style-type: none;
+  margin-top: 105px;
+}
+
+.between-bottom > ul >li {
+  font-size: 12px;
+  line-height: 14.05px;
+  padding-bottom: 53.64px;
+}
+
+/* .line-2 {
+  background-color: #22175B;
+  width: 1px;
+  height: 450px;
+} */
+
+.designer-4 {
+  background-image: url(./images/designer4.png);
+  height: 75.68px;
+  width: 75.68px;
+  position: relative;
+  left: 1806px;
+  bottom: 298.28px;
+}
+
+.designer-3 {
+  background-image: url(./images/designer3.png);
+  height: 96px;
+  width: 82.4px;
+  position: relative;
+  left: 725px;
+  bottom: 560px;
+}
+
+.designer-2 {
+  background-image: url(./images/designer2.png);
+  height: 60px;
+  width: 60px;
+  position: relative;
+  left: 1164px;
+  bottom: 250px;
+}
+
+.designer-1 {
+  background-image: url(./images/designer1.png);
+  height: 112px;
+  width: 112px;
+  position: relative;
+  left: 1226px;
+  bottom: 940px;
+  
 }
